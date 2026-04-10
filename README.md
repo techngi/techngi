@@ -1,29 +1,126 @@
-- 👋 Hi, I’m @techngi
-- 👀 I’m interested in Cloud Engineering
-- 🌱 I’m currently learning GitHub Co-Pilot
-- 💞️ I’m looking to collaborate on Programing with AI Pair
-- 📫 How to reach me sanaqvi573@gmail.com
+# 👋 Hi, I'm Syed Sohail
 
-## About me
-
-<!-- TO DO: add more details about me later -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
-<details>
-<summary>My top THINGS-TO-RANK</summary>
-
-| Rank | THING-TO-RANK |
-|-----:|---------------|
-|     1|     Python    |
-|     2|     GitHub    |
-|     3|     Copilot   |
-
-</details>
+🚀 Infrastructure Support Engineer → Aspiring DevOps / Platform Engineer
+📍 Sydney, Australia
 
 ---
-> If we pull together and commit ourselves, then we can push through anything.
+
+## 🧠 About Me
+
+I am currently working as an Infrastructure Support Engineer in an MSP, with hands-on experience in systems, cloud operations, and troubleshooting.
+
+Over the past few years, I have been actively building real-world projects focusing on:
+
+* CI/CD pipelines (Jenkins)
+* Kubernetes (EKS)
+* GitOps (ArgoCD)
+* Infrastructure automation
+* Monitoring & reliability
+* DevSecOps practices
+
+---
+
+## ⚙️ Key DevOps Project
+
+### 🔹 End-to-End DevOps Platform (EKS + GitOps)
+
+Built a production-style DevOps pipeline with:
+
+* Jenkins CI pipeline (build, scan, deploy)
+* Dockerized application
+* AWS ECR for image registry
+* Kubernetes (EKS) for deployment
+* ArgoCD for GitOps continuous delivery
+* Multi-environment setup (Dev & Prod)
+* Manual approval for production promotion
+
+📌 Repositories:
+
+* 👉 https://github.com/techngi/platform-apps
+* 👉 https://github.com/techngi/platform-environments
+
+---
+
+## 🔄 CI/CD + GitOps Flow
+
+```
+Code Push
+   ↓
+Jenkins Pipeline
+   ↓
+Build Docker Image (Git SHA)
+   ↓
+Trivy Security Scan
+   ↓
+Push to AWS ECR
+   ↓
+Update GitOps Repo (Dev)
+   ↓
+ArgoCD Deploys to Dev
+   ↓
+⏸ Manual Approval
+   ↓
+Promote to Prod
+   ↓
+ArgoCD Deploys to Prod
+```
+
+---
+
+## 🔐 Security (DevSecOps)
+
+* Integrated **Trivy vulnerability scanning**
+* Pipeline fails on **critical vulnerabilities**
+* Secure image promotion to production
+
+---
+
+## 📊 Monitoring & Reliability
+
+* Prometheus for metrics collection
+* Grafana dashboards for observability
+* Liveness & readiness probes
+* Horizontal Pod Autoscaling (HPA)
+* Self-healing via ArgoCD
+
+---
+
+## 🛠 Tech Stack
+
+**Cloud & Containers**
+
+* AWS (EKS, ECR)
+* Docker
+* Kubernetes
+
+**CI/CD & GitOps**
+
+* Jenkins
+* ArgoCD
+* GitHub
+
+**Monitoring & Security**
+
+* Prometheus
+* Grafana
+* Trivy
+
+---
+
+## 📫 Connect With Me
+
+* LinkedIn: *(add your link here)*
+* GitHub: https://github.com/techngi
+
+---
+
+## 💡 What Sets Me Apart
+
+* Hands-on end-to-end DevOps project 
+* Strong troubleshooting background (MSP experience)
+* Focus on production-ready practices (GitOps, security, reliability)
+* Continuous learner with clear career direction
+
+---
+
+⭐ *Feel free to explore my repositories and provide feedback!*
