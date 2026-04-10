@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Syed Sohail
+# 👋 Hi, I'm Syed Abbas
 
 🚀 Infrastructure Support Engineer → Aspiring DevOps / Platform Engineer
 📍 Sydney, Australia
