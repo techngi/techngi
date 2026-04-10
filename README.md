@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Syed Abbas
 
-🚀 Infrastructure Support Engineer → Aspiring DevOps / Platform Engineer
+🚀 DevOps / Platform Engineer
 📍 Sydney, Australia
 
 ---
