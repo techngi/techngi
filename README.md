@@ -1,126 +1,45 @@
 # 👋 Hi, I'm Syed Abbas
 
-🚀 DevOps / Platform Engineer
+**Infrastructure Engineer → Cloud & Platform Engineering**
 📍 Sydney, Australia
+🔗 [LinkedIn](https://www.linkedin.com/in/syed-abbas-4891a5175/) | 📧 sanaqvi573@gmail.com
 
 ---
 
 ## 🧠 About Me
 
-I am currently working as an Infrastructure Support Engineer in an MSP, with hands-on experience in systems, cloud operations, and troubleshooting.
+Infrastructure Support Engineer with 7+ years of experience at an MSP, actively transitioning into Cloud and Platform Engineering.
 
-Over the past few years, I have been actively building real-world projects focusing on:
+Over the past 2 years I have built real-world, end-to-end projects focused on:
 
-* CI/CD pipelines (Jenkins)
-* Kubernetes (EKS)
-* GitOps (ArgoCD)
-* Infrastructure automation
-* Monitoring & reliability
-* DevSecOps practices
-
----
-
-## ⚙️ Key DevOps Project
-
-### 🔹 End-to-End DevOps Platform (EKS + GitOps)
-
-Built a production-style DevOps pipeline with:
-
-* Jenkins CI pipeline (build, scan, deploy)
-* Dockerized application
-* AWS ECR for image registry
-* Kubernetes (EKS) for deployment
-* ArgoCD for GitOps continuous delivery
-* Multi-environment setup (Dev & Prod)
-* Manual approval for production promotion
-
-📌 Repositories:
-
-* 👉 https://github.com/techngi/platform-apps
-* 👉 https://github.com/techngi/platform-environments
+- Infrastructure as Code (Terraform)
+- CI/CD pipelines (Jenkins)
+- Kubernetes on AWS (EKS)
+- GitOps continuous delivery (ArgoCD)
+- Monitoring & observability (Prometheus, Grafana)
+- DevSecOps practices (Trivy)
 
 ---
 
-## 🔄 CI/CD + GitOps Flow
+## ⚙️ Featured Project — End-to-End Cloud-Native DevOps Platform
 
-```
-Code Push
-   ↓
-Jenkins Pipeline
-   ↓
-Build Docker Image (Git SHA)
-   ↓
-Trivy Security Scan
-   ↓
-Push to AWS ECR
-   ↓
-Update GitOps Repo (Dev)
-   ↓
-ArgoCD Deploys to Dev
-   ↓
-⏸ Manual Approval
-   ↓
-Promote to Prod
-   ↓
-ArgoCD Deploys to Prod
-```
+Built a production-grade DevOps platform on AWS from scratch:
+
+| Component | Technology |
+|---|---|
+| Infrastructure | AWS (EKS, ECR, VPC, IAM) + Terraform |
+| CI Pipeline | Jenkins (build → scan → push → deploy) |
+| Container Registry | Amazon ECR (Git SHA tagging) |
+| Orchestration | Kubernetes on EKS (HPA, probes, namespaces) |
+| GitOps Delivery | ArgoCD (auto-sync, drift detection, self-healing) |
+| Multi-Environment | Dev (auto) + Prod (manual approval gate) |
+| Monitoring | Prometheus + Grafana |
+| Security | Trivy scanning — pipeline fails on critical CVEs |
+
+**Repositories:**
+- 🔧 CI Pipeline → [platform-apps](https://github.com/techngi/platform-apps)
+- 🌍 GitOps Environments → [platform-environments](https://github.com/techngi/platform-environments)
 
 ---
 
-## 🔐 Security (DevSecOps)
-
-* Integrated **Trivy vulnerability scanning**
-* Pipeline fails on **critical vulnerabilities**
-* Secure image promotion to production
-
----
-
-## 📊 Monitoring & Reliability
-
-* Prometheus for metrics collection
-* Grafana dashboards for observability
-* Liveness & readiness probes
-* Horizontal Pod Autoscaling (HPA)
-* Self-healing via ArgoCD
-
----
-
-## 🛠 Tech Stack
-
-**Cloud & Containers**
-
-* AWS (EKS, ECR)
-* Docker
-* Kubernetes
-
-**CI/CD & GitOps**
-
-* Jenkins
-* ArgoCD
-* GitHub
-
-**Monitoring & Security**
-
-* Prometheus
-* Grafana
-* Trivy
-
----
-
-## 📫 Connect With Me
-
-* LinkedIn: *(add your link here)*
-* GitHub: https://github.com/techngi
-
----
-
-## 💡 What Sets Me Apart
-
-* Hands-on end-to-end DevOps project 
-* Strong troubleshooting background (MSP experience)
-* Focus on production-ready practices (GitOps, security, reliability)
-* Continuous learner with clear career direction
-
----
-
-⭐ *Feel free to explore my repositories and provide feedback!*
+## 🔄 End-to-End Flow
