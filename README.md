@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Syed Abbas
 
-**Infrastructure Engineer → Cloud & Platform Engineering**
+**Infrastructure & Cloud Platform Engineer**
 📍 Sydney, Australia
 🔗 [LinkedIn](https://www.linkedin.com/in/syed-abbas-4891a5175/) | 📧 sanaqvi573@gmail.com
 
@@ -8,7 +8,7 @@
 
 ## 🧠 About Me
 
-Infrastructure Support Engineer with 7+ years of experience at an MSP, actively transitioning into Cloud and Platform Engineering.
+Infrastructure and Cloud Platform Engineer with 7+ years of experience across MSP and in-house environments, specialising in cloud-native infrastructure, DevOps automation, and platform engineering.
 
 Over the past 2 years I have built real-world, end-to-end projects focused on:
 
